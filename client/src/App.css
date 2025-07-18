@@ -1,0 +1,12 @@
+/* App-specific styles */
+/* Most styles are in index.css for global application */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard {
+  flex: 1;
+} 
