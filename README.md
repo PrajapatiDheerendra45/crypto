@@ -146,14 +146,14 @@ The application includes an automated cron job that:
 cd client
 npm run build
 
-# Deploy to Vercel
-vercel --prod
+# Deploy to onrender
+https://crypto-22.onrender.com/
 ```
 
 ### Backend (Render/Railway)
 ```bash
 # Deploy to Render
-git push origin main
+https://crypto-backend-07pw.onrender.com/
 ```
 
 ### Database (MongoDB Atlas)
