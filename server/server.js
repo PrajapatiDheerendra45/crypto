@@ -10,7 +10,7 @@ const testRoutes = require('./routes/testRoutes');
 const { initializeCronJobs } = require('./jobs/cronJobs');
 
 const app = express();
-
+app.set('trust proxy', 1); 
 // Environment variables
 const PORT = process.env.PORT || 5000;
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/crypto-tracker';
