@@ -27,11 +27,12 @@ const limiter = rateLimit({
 app.use('/api/', limiter);
 
 // CORS configuration
+// CORS configuration
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://your-frontend-domain.vercel.app'] 
-    : ['http://localhost:3000', 'http://127.0.0.1:3000'],
-  credentials: true
+    ? ['https://crypto-22.onrender.com']
+    : ['http://localhost:5000', 'http://127.0.0.1:5000'],
+  credentials: true
 }));
 
 // Body parsing middleware
